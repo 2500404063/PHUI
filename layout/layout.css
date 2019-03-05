@@ -1,0 +1,110 @@
+@charset "utf-8";
+*{padding: 0; margin: 0;}
+body,html{height: 100%;}
+/*Setting of Width and Height*/
+.layout-width-full{width: 100%;}
+.layout-width-100{width: 100px;}
+.layout-width-200{width: 200px;}
+.layout-width-300{width: 300px;}
+.layout-width-400{width: 400px;}
+.layout-width-500{width: 500px;}
+.layout-width-600{width: 600px;}
+.layout-width-700{width: 700px;}
+.layout-width-800{width: 800px;}
+.layout-width-1000{width: 1000px;}
+.layout-width-1200{width: 1000px;}
+.layout-width-10{width: 10%;}
+.layout-width-20{width: 20%;}
+.layout-width-30{width: 30%;}
+.layout-width-40{width: 40%;}
+.layout-width-50{width: 50%;}
+.layout-width-60{width: 60%;}
+.layout-width-70{width: 70%;}
+.layout-width-80{width: 80%;}
+.layout-width-90{width: 90%;}
+.layout-height-full{height: 100%;}
+.layout-height-100{height: 100px;}
+.layout-height-200{height: 200px;}
+.layout-height-300{height: 300px;}
+.layout-height-400{height: 400px;}
+.layout-height-500{height: 500px;}
+.layout-height-600{height: 600px;}
+.layout-height-700{height: 700px;}
+.layout-height-800{height: 800px;}
+.layout-height-1000{height: 1000px;}
+.layout-height-10{height: 10%;}
+.layout-height-20{height: 20%;}
+.layout-height-30{height: 30%;}
+.layout-height-40{height: 40%;}
+.layout-height-50{height: 50%;}
+.layout-height-60{height: 60%;}
+.layout-height-70{height: 70%;}
+.layout-height-80{height: 80%;}
+.layout-height-90{height: 90%;}
+/*Setting of Subelement Position*/
+.layout-center{margin-left: auto;margin-right: auto;}
+.layout-text-left{text-align: left;}
+.layout-text-center{text-align: center;}
+.layout-text-right{text-align: right;}
+[class*=layout-row-]{display: flex;flex-flow: row wrap;}
+[class*=layout-column-]{display: flex;flex-flow: row wrap;}
+.layout-row-left{justify-content: flex-start;}
+.layout-row-center{justify-content: center;}
+.layout-row-right{justify-content: flex-end;}
+.layout-row-space{justify-content: space-between;}
+.layout-row-padding{justify-content: space-around;}
+.layout-column-top{align-items: flex-sttop}
+.layout-column-center{align-items: center;}
+.layout-column-bottom{align-items: flex-end;}
+.layout-column-stretch{align-items:stretch;}
+.layout-column-baseline{align-items: baseline;}
+/*Setting of grid*/
+[class*=layout-grid-]{float: left;}
+@media screen and (max-width:768px) {
+	.layout-grid-re1{width: calc(100%);}
+	.layout-grid-re2{width: calc(100%);}
+	.layout-grid-re3{width: calc(100%);}
+	.layout-grid-re4{width: calc(100%);}
+	.layout-grid-re5{width: calc(100%);}
+	.layout-grid-re6{width: calc(100%);}
+	.layout-grid-re7{width: calc(100%);}
+	.layout-grid-re8{width: calc(100%);}
+	.layout-grid-re9{width: calc(100%);}
+	.layout-grid-re10{width: calc(100%);}
+	.layout-grid-re11{width: calc(100%);}
+	.layout-grid-re12{width: calc(100%);}
+}
+@media screen and (min-width:768px) {
+	.layout-grid-re1{width: calc(100% / 16);}
+	.layout-grid-re2{width: calc(100% * 2 / 16);}
+	.layout-grid-re3{width: calc(100% * 3 / 16);}
+	.layout-grid-re4{width: calc(100% * 4 / 16);}
+	.layout-grid-re5{width: calc(100% * 5 / 16);}
+	.layout-grid-re6{width: calc(100% * 6 / 16);}
+	.layout-grid-re7{width: calc(100% * 7 / 16);}
+	.layout-grid-re8{width: calc(100% * 8 / 16);}
+	.layout-grid-re9{width: calc(100% * 9 / 16);}
+	.layout-grid-re10{width: calc(100% * 10 / 16);}
+	.layout-grid-re11{width: calc(100% * 11 / 16);}
+	.layout-grid-re12{width: calc(100% * 12 / 16);}
+	.layout-grid-re13{width: calc(100% * 13 / 16);}
+	.layout-grid-re14{width: calc(100% * 14 / 16);}
+	.layout-grid-re15{width: calc(100% * 15 / 16);}
+	.layout-grid-re16{width: calc(100% * 16 / 16);}
+}
+.layout-grid-1{width: calc(100% / 16);}
+.layout-grid-2{width: calc(100% * 2 / 16);}
+.layout-grid-3{width: calc(100% * 3 / 16);}
+.layout-grid-4{width: calc(100% * 4 / 16);}
+.layout-grid-5{width: calc(100% * 5 / 16);}
+.layout-grid-6{width: calc(100% * 6 / 16);}
+.layout-grid-7{width: calc(100% * 7 / 16);}
+.layout-grid-8{width: calc(100% * 8 / 16);}
+.layout-grid-9{width: calc(100% * 9 / 16);}
+.layout-grid-10{width: calc(100% * 10 / 16);}
+.layout-grid-11{width: calc(100% * 11 / 16);}
+.layout-grid-12{width: calc(100% * 12 / 16);}
+.layout-grid-13{width: calc(100% * 13 / 16);}
+.layout-grid-14{width: calc(100% * 14 / 16);}
+.layout-grid-15{width: calc(100% * 15 / 16);}
+.layout-grid-16{width: calc(100% * 16 / 16);}

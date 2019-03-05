@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'PHUI-ICON';
+    src: url("iconfont.woff");
+    font-weight: normal;
+    font-style: normal;
+}
+[class*=icon-]{font-family:'PHUI-ICON';}
+/*Communication and login*/
+.icon-rate-half::before{content: "\e6c9";}
+.icon-rate::before{content: "\e67b";}
+.icon-rate-solid::before{content: "\e67a";}
+.icon-phone::before{content: "\e678";}
+.icon-wechat::before{content: "\e677";}
+.icon-qq::before{content: "\e676";}
+.icon-vercode::before{content: "\e679";}
+.icon-user::before{content: "\e66f";}
+.icon-password::before{content: "\e673";}
+.icon-praise::before{content: "\e6c6";}
+.icon-treat::before{content: "\e6c5";}
+/*Guide icon*/
+.icon-home::before{content: "\e68e";}
+.icon-refresh::before{content: "\e669";}
+.icon-set::before{content: "\e716";}
+.icon-app::before{content: "\e653";}
+.icon-more::before{content: "\e65f";}
+.icon-return::before{content: "\e65c";}
+.icon-last::before{content: "\e65a";}
+.icon-next::before{content: "\e65b";}
+/*Others*/
+.icon-ok::before{content: "\e605";}
+.icon-close::before{content: "\1006";}
+.icon-close-filled::before{content: "\1007";}
+.icon-top::before{content: "\e604";}
+.icon-load::before{content: "\e63d";}
