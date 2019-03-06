@@ -1,44 +1,62 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>Testing Page</title>
-		<link rel="stylesheet" href="layout/layout.css" />
-		<link rel="stylesheet" href="color/color.css" />
-		<link rel="stylesheet" href="icon/icon.css" />
-		<link rel="stylesheet" href="animation/animation.css" />
-		<link rel="stylesheet" href="widget/widget.css" />
-		<script src="PHForm.js"></script>
-	</head>
-	<body>
-		<div class="layout-width-full layout-height-full">
-			<div class="layout-height-100 layout-grid-re8 color-bg-grey layout-row-space layout-column-center">
-				<a class="button-round is-big color-bg-green color-font-white" onclick="anim_scale(this)">大型按钮</a>
-				<a class="button-round is-normal color-bg-green color-font-white" onclick="anim_scale(this)">正常按钮</a>
-				<a class="button-round is-small color-bg-green color-font-white" onclick="anim_scale(this)">小型按钮</a>
-				<a class="button-round is-tiny color-bg-green color-font-white" onclick="anim_scale(this)">微型按钮</a>
-				<br>
-				<a class="button-flat is-big color-bg-green color-font-white" onclick="anim_scale(this)">大型按钮</a>
-				<a class="button-flat is-normal color-bg-green color-font-white" onclick="anim_scale(this)">正常按钮</a>
-				<a class="button-flat is-small color-bg-green color-font-white" onclick="anim_scale(this)">小型按钮</a>
-				<a class="button-flat is-tiny color-bg-green color-font-white" onclick="anim_scale(this)">微型按钮</a>
+
+<head>
+	<meta charset="utf-8">
+	<title>Testing Page</title>
+	<link rel="stylesheet" href="layout/layout.css" />
+	<link rel="stylesheet" href="color/color.css" />
+	<link rel="stylesheet" href="icon/icon.css" />
+	<link rel="stylesheet" href="animation/animation.css" />
+	<link rel="stylesheet" href="widget/widget.css" />
+	<script src="PHForm.js"></script>
+</head>
+
+<body>
+	<div>
+		<div class="layout-height-100 layout-grid-re8 color-bg-grey layout-row-space layout-column-center">
+			<a class="button-round is-big color-bg-green color-font-white" onclick="anim_scale(this)">大型按钮</a>
+			<a class="button-round is-normal color-bg-green color-font-white" onclick="anim_scale(this)">正常按钮</a>
+			<a class="button-round is-small color-bg-green color-font-white" onclick="anim_scale(this)">小型按钮</a>
+			<a class="button-round is-tiny color-bg-green color-font-white" onclick="anim_scale(this)">微型按钮</a>
+			<br>
+			<a class="button-flat is-big color-bg-green color-font-white" onclick="anim_scale(this)">大型按钮</a>
+			<a class="button-flat is-normal color-bg-green color-font-white" onclick="anim_scale(this)">正常按钮</a>
+			<a class="button-flat is-small color-bg-green color-font-white" onclick="anim_scale(this)">小型按钮</a>
+			<a class="button-flat is-tiny color-bg-green color-font-white" onclick="anim_scale(this)">微型按钮</a>
+		</div>
+	</div>
+	<div>
+		<div class="layout-height-100 layout-grid-re8 color-bg-grey layout-row-space layout-column-center">
+			<a class="button-round-line is-big " onclick="anim_scale(this)">大型按钮</a>
+			<a class="button-round-line is-normal " onclick="anim_scale(this)">正常按钮</a>
+			<a class="button-round-line is-small " onclick="anim_scale(this)">小型按钮</a>
+			<a class="button-round-line is-tiny " onclick="anim_scale(this)">微型按钮</a>
+			<br>
+			<a class="button-flat-line is-big " onclick="anim_scale(this)">大型按钮</a>
+			<a class="button-flat-line is-normal " onclick="anim_scale(this)">正常按钮</a>
+			<a class="button-flat-line is-small " onclick="anim_scale(this)">小型按钮</a>
+			<a class="button-flat-line is-tiny " onclick="anim_scale(this)">微型按钮</a>
+		</div>
+	</div>
+	<div>
+		<div class="button-round color-bg-green" onclick="anim_fadein(this)">
+			<a class="icon-load anim-loading is-big" style="font-size:24px"></a>
+		</div>
+		<br />
+		<div class="layout-grid-3">
+			<div class="layout-grid-9">
+				<a class="icon-user"></a><input type="text" /><br>
+				<a class="icon-password"></a><input type="text" />
 			</div>
-			<div class="layout-height-100 layout-grid-re8 color-bg-grey layout-row-space layout-column-center">
-				<a class="button-round-line is-big " onclick="anim_scale(this)">大型按钮</a>
-				<a class="button-round-line is-normal " onclick="anim_scale(this)">正常按钮</a>
-				<a class="button-round-line is-small " onclick="anim_scale(this)">小型按钮</a>
-				<a class="button-round-line is-tiny " onclick="anim_scale(this)">微型按钮</a>
-				<br>
-				<a class="button-flat-line is-big " onclick="anim_scale(this)">大型按钮</a>
-				<a class="button-flat-line is-normal " onclick="anim_scale(this)">正常按钮</a>
-				<a class="button-flat-line is-small " onclick="anim_scale(this)">小型按钮</a>
-				<a class="button-flat-line is-tiny " onclick="anim_scale(this)">微型按钮</a>
-			</div>
-			<div class="layout-height-full layout-width-200 color-bg-green">
-				<a class="icon-load anim-loading" style="font-size: 56px;"></a>
+			<div class="layout-grid-7">
+				<a class="button-flat is-normal color-bg-green" onclick="anim_scale(this)">In</a>
 			</div>
 		</div>
-	</body>
-	<script src="layout/layout.js"></script>
-	<script src="animation/animation.js"></script>
+	</div>
+
+</body>
+<script src="layout/layout.js"></script>
+<script src="animation/animation.js"></script>
+
 </html>
