@@ -1,4 +1,4 @@
-function anim_cale(obj){
+function anim_scale(obj){
 	obj.classList.add("anim-scale");
 	setTimeout(function(){
 		obj.classList.remove("anim-scale");

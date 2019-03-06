@@ -1,4 +1,9 @@
+[class*=button-]{display: inline-block;}
 .button-flat{text-align: center;}
 .button-round{border-radius: 20px;text-align: center;}
 .button-flat-line{border:1px solid white;text-align: center;}
 .button-round-line{border-radius: 20px;border:1px solid white;text-align: center;}
+.is-tiny{padding:0 5px 0 5px;height: 22px;line-height: 22px;font-size: 12px;}
+.is-small{padding:0 10px 0 10px;height: 30px;line-height: 30px;font-size: 12px;}
+.is-normal{padding:0 18px 0 18px;height: 38px;line-height: 38px;font-size: 14px;}
+.is-big{padding:0 25px 0 25px;height: 44px;line-height: 44px;font-size: 16px;}
