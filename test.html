@@ -12,49 +12,42 @@
 	<script src="PHForm.js"></script>
 </head>
 
-<body>
-	<div>
-		<div class="layout-height-100 layout-grid-re8 color-bg-grey layout-row-space layout-column-center">
-			<a class="button-round is-big color-bg-green color-font-white" onclick="anim_scale(this)">大型按钮</a>
-			<a class="button-round is-normal color-bg-green color-font-white" onclick="anim_scale(this)">正常按钮</a>
-			<a class="button-round is-small color-bg-green color-font-white" onclick="anim_scale(this)">小型按钮</a>
-			<a class="button-round is-tiny color-bg-green color-font-white" onclick="anim_scale(this)">微型按钮</a>
-			<br>
-			<a class="button-flat is-big color-bg-green color-font-white" onclick="anim_scale(this)">大型按钮</a>
-			<a class="button-flat is-normal color-bg-green color-font-white" onclick="anim_scale(this)">正常按钮</a>
-			<a class="button-flat is-small color-bg-green color-font-white" onclick="anim_scale(this)">小型按钮</a>
-			<a class="button-flat is-tiny color-bg-green color-font-white" onclick="anim_scale(this)">微型按钮</a>
-		</div>
+<body class="color-bg-grey">
+	<div class="">
+		<div class="layout-grid-4 color-bg-green">a</div>
+		<div class="layout-grid-4 color-bg-green">b</div>
+		<div class="layout-grid-4 color-bg-green">c</div>
 	</div>
-	<div>
-		<div class="layout-height-100 layout-grid-re8 color-bg-grey layout-row-space layout-column-center">
-			<a class="button-round-line is-big " onclick="anim_scale(this)">大型按钮</a>
-			<a class="button-round-line is-normal " onclick="anim_scale(this)">正常按钮</a>
-			<a class="button-round-line is-small " onclick="anim_scale(this)">小型按钮</a>
-			<a class="button-round-line is-tiny " onclick="anim_scale(this)">微型按钮</a>
-			<br>
-			<a class="button-flat-line is-big " onclick="anim_scale(this)">大型按钮</a>
-			<a class="button-flat-line is-normal " onclick="anim_scale(this)">正常按钮</a>
-			<a class="button-flat-line is-small " onclick="anim_scale(this)">小型按钮</a>
-			<a class="button-flat-line is-tiny " onclick="anim_scale(this)">微型按钮</a>
-		</div>
-	</div>
-	<div>
-		<div class="button-round color-bg-green" onclick="anim_fadein(this)">
-			<a class="icon-load anim-loading is-big" style="font-size:24px"></a>
-		</div>
-		<br />
-		<div class="layout-grid-3">
-			<div class="layout-grid-9">
-				<a class="icon-user"></a><input type="text" /><br>
-				<a class="icon-password"></a><input type="text" />
+	<br>
+	<div class="layout-flex-padding layout-flex-vcenter">
+		<fieldset class="layout-grid-3 fieldset-solid">
+			<legend>按钮主题</legend>
+			<div class="layout-height-100 layout-flex-padding layout-flex-vcenter">
+				<a class="button-round button-big color-bg-green color-font-white" onclick="anim_scale(this)">大型按钮</a>
+				<a class="button-round button-normal color-bg-green color-font-white" onclick="anim_scale(this)">正常按钮</a>
+				<a class="button-round button-small color-bg-green color-font-white" onclick="anim_scale(this)">小型按钮</a>
+				<a class="button-round button-tiny color-bg-green color-font-white" onclick="anim_scale(this)">微型按钮</a>
+				<a class="button-flat button-big color-bg-green color-font-white" onclick="anim_scale(this)">大型按钮</a>
+				<a class="button-flat button-normal color-bg-green color-font-white" onclick="anim_scale(this)">正常按钮</a>
+				<a class="button-flat button-small color-bg-green color-font-white" onclick="anim_scale(this)">小型按钮</a>
+				<a class="button-flat button-tiny color-bg-green color-font-white" onclick="anim_scale(this)">微型按钮</a>
 			</div>
-			<div class="layout-grid-7">
-				<a class="button-flat is-normal color-bg-green" onclick="anim_scale(this)">In</a>
+		</fieldset>
+		<fieldset class="layout-grid-4 fieldset-solid">
+			<legend>按钮主题</legend>
+			<div class="layout-height-100 layout-flex-padding layout-flex-vcenter">
+				<a class="button-round-line button-big " onclick="anim_scale(this)">大型按钮</a>
+				<a class="button-round-line button-normal " onclick="anim_scale(this)">正常按钮</a>
+				<a class="button-round-line button-small " onclick="anim_scale(this)">小型按钮</a>
+				<a class="button-round-line button-tiny " onclick="anim_scale(this)">微型按钮</a>
+				<br />
+				<a class="button-flat-line button-big " onclick="anim_scale(this)">大型按钮</a>
+				<a class="button-flat-line button-normal " onclick="anim_scale(this)">正常按钮</a>
+				<a class="button-flat-line button-small " onclick="anim_scale(this)">小型按钮</a>
+				<a class="button-flat-line button-tiny " onclick="anim_scale(this)">微型按钮</a>
 			</div>
-		</div>
+		</fieldset>
 	</div>
-
 </body>
 <script src="layout/layout.js"></script>
 <script src="animation/animation.js"></script>

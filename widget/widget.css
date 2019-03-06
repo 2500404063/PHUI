@@ -3,7 +3,11 @@
 .button-round{border-radius: 20px;}
 .button-flat-line{border:1px solid white;}
 .button-round-line{border-radius: 20px;border:1px solid white;}
-.is-tiny{padding:0 5px 0 5px;height: 22px;line-height: 22px;font-size: 12px;}
-.is-small{padding:0 10px 0 10px;height: 30px;line-height: 30px;font-size: 12px;}
-.is-normal{padding:0 18px 0 18px;height: 38px;line-height: 38px;font-size: 14px;}
-.is-big{padding:0 25px 0 25px;height: 44px;line-height: 44px;font-size: 16px;}
+.button-tiny{padding:0 5px 0 5px;height: 22px;line-height: 22px;font-size: 12px;}
+.button-small{padding:0 10px 0 10px;height: 30px;line-height: 30px;font-size: 12px;}
+.button-normal{padding:0 18px 0 18px;height: 38px;line-height: 38px;font-size: 14px;}
+.button-big{padding:0 25px 0 25px;height: 44px;line-height: 44px;font-size: 16px;}
+.fieldset-solid{border: 1px solid #bababa;}
+.fieldset-solid legend{margin-left: 15px;}
+.fieldset-dot{border: 1px dotted #bababa;}
+.fieldset-dot legend{margin-left: 15px;}
