@@ -54,7 +54,7 @@ body,html{height: 100%;}
 .layout-row-right{justify-content: flex-end;}
 .layout-row-space{justify-content: space-between;}
 .layout-row-padding{justify-content: space-around;}
-.layout-column-top{align-items: flex-sttop}
+.layout-column-top{align-items: flex-start}
 .layout-column-center{align-items: center;}
 .layout-column-bottom{align-items: flex-end;}
 .layout-column-stretch{align-items:stretch;}
