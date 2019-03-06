@@ -32,6 +32,7 @@ body,html{height: 100%;}
 .layout-height-700{height: 700px;}
 .layout-height-800{height: 800px;}
 .layout-height-1000{height: 1000px;}
+.layout-height-1200{height: 1200px;}
 .layout-height-10{height: 10%;}
 .layout-height-20{height: 20%;}
 .layout-height-30{height: 30%;}
@@ -61,18 +62,7 @@ body,html{height: 100%;}
 /*Setting of grid*/
 [class*=layout-grid-]{float: left;}
 @media screen and (max-width:768px) {
-	.layout-grid-re1{width: calc(100%);}
-	.layout-grid-re2{width: calc(100%);}
-	.layout-grid-re3{width: calc(100%);}
-	.layout-grid-re4{width: calc(100%);}
-	.layout-grid-re5{width: calc(100%);}
-	.layout-grid-re6{width: calc(100%);}
-	.layout-grid-re7{width: calc(100%);}
-	.layout-grid-re8{width: calc(100%);}
-	.layout-grid-re9{width: calc(100%);}
-	.layout-grid-re10{width: calc(100%);}
-	.layout-grid-re11{width: calc(100%);}
-	.layout-grid-re12{width: calc(100%);}
+	[class*=layout-grid-re]{width: calc(100%);}
 }
 @media screen and (min-width:768px) {
 	.layout-grid-re1{width: calc(100% / 16);}
