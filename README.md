@@ -13,4 +13,4 @@ It has those functions:
 
 **More details to see helper.docx**
 
-**MyBlog Here:**  [鹏程博客](https://blog.pengstar.top/ "鹏程博客")
+**MyBlog Here:**  <a href="https://blog.pengstar.top/" target="_blank">鹏程博客</a>
